@@ -206,7 +206,7 @@ body {
   grid-template-rows: repeat(2, auto); /* 2 rows */
   justify-content: center;
   align-items: center;
-  width: 1035px;
+  width: 90%;
   margin: auto;
   padding-bottom: 20px;
   column-gap: 60px;
@@ -228,8 +228,10 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  width: 100%; /* Full width inside grid */
+  width: 100%;
   min-height: 300px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
 }
 
 /* Hover effect for service cards */
@@ -300,7 +302,59 @@ body {
 
 .outerserviceprovide p {
   font-size: 18px;
-  margin-left: 60px;
+  margin-left: 10px;
   color: #5c5151;
   margin-right: 10px;
+}
+
+.makefirstgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1px;
+  row-gap: 20px;
+}
+.gridcolums {
+  margin-left: 50px;
+  margin-right: 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.ourapproachouter {
+  margin-bottom: 100px;
+}
+
+.ourapproachouter h1 {
+  font-size: 60px;
+  margin-left: 55px;
+}
+.makeourapproachflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.gridcolums {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.makeourapproachflex h3 {
+  color: #5c5151;
+}
+.ourapproachmove {
+  margin-left: 20px;
+}
+
+.gridcolums h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.gridcolums p {
+  margin-bottom: 30px;
 }
