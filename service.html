@@ -232,7 +232,253 @@
         </div>
       </div>
     </div>
+
+    <!-- client love us -->
+    <h1
+      class="firstclientloveheading"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      Why our clients love us?
+    </h1>
+
+    <div
+      class="makeclientloveusscroall"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
+      <!-- first time -->
+
+      <div class="clientloveheading">
+        <div>
+          <h2 class="clientloveheadingtwo">
+            A True Extension of Our Business and Vision
+          </h2>
+          <p class="thisisloveuspara">
+            “Their team didn’t just take the project on; they became an integral
+            extension of our business. From the very beginning, they immersed
+            themselves in our brand and culture, that fit perfectly with our
+            objectives.”
+          </p>
+          <div class="innerloveusdiv">
+            <div class="faceicondiv">
+              <img
+                src="./public/images/clientlove1.png"
+                alt="image"
+                class="faceicon"
+              />
+              <div class="makesameline">
+                <p class="makingloveusheadingbig">Tina Robert</p>
+                <p>Head of Product</p>
+              </div>
+            </div>
+            <div class="leftsidesvgloveclient">
+              <img src="./public/images/clientlove11.svg" alt="image svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second time  -->
+
+      <div class="clientloveheading">
+        <div>
+          <h2 class="clientloveheadingtwo">
+            Seamless Collaboration that Exceeds Expectations
+          </h2>
+          <p class="thisisloveuspara">
+            “The team went above and beyond to deliver a website that exceeded
+            our expectations. Their attention to detail and commitment to
+            quality made all the difference seen a significant increase in
+            traffic customer engagement!”
+          </p>
+          <div class="innerloveusdiv">
+            <div class="faceicondiv">
+              <img
+                src="./public/images/clientlove2.webp"
+                alt="image"
+                class="faceicon"
+              />
+              <div class="makesameline">
+                <p class="makingloveusheadingbig">Sarah Malkova</p>
+                <p>Founder</p>
+              </div>
+            </div>
+            <div class="leftsidesvgloveclient">
+              <img src="./public/images/clientlove22.svg" alt="image svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- thrid time -->
+
+      <div class="clientloveheading">
+        <div>
+          <h2 class="clientloveheadingtwo">
+            Unparalleled Communication and Commitment to Success
+          </h2>
+          <p class="thisisloveuspara">
+            “The level of communication and collaboration we experienced while
+            working with this agency was unparalleled. They were not only
+            responsive but also proactive providing us with regular updates.”
+          </p>
+          <div class="innerloveusdiv">
+            <div class="faceicondiv">
+              <img
+                src="./public/images/clientlove3.webp"
+                alt="image"
+                class="faceicon"
+              />
+              <div class="makesameline">
+                <p class="makingloveusheadingbig">Michael Philips</p>
+                <p>CEO</p>
+              </div>
+            </div>
+            <div class="leftsidesvgloveclient">
+              <img src="./public/images/clientlove33.svg" alt="image svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- fourth time -->
+
+      <div class="clientloveheading">
+        <div>
+          <h2 class="clientloveheadingtwo">
+            A True Extension of Our Business and Vision
+          </h2>
+          <p class="thisisloveuspara">
+            “Their team didn’t just take the project on; they became an integral
+            extension of our business. From the very beginning, they immersed
+            themselves in our brand and culture, that fit perfectly with our
+            objectives.”
+          </p>
+          <div class="innerloveusdiv">
+            <div class="faceicondiv">
+              <img
+                src="./public/images/clientlove5.png"
+                alt="image"
+                class="faceicon"
+              />
+              <div class="makesameline">
+                <p class="makingloveusheadingbig">Michael Philips</p>
+                <p>CEO</p>
+              </div>
+            </div>
+            <div class="leftsidesvgloveclient">
+              <img src="./public/images/clientlove55.svg" alt="image svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- fifth time -->
+      <div class="clientloveheading">
+        <div>
+          <h2 class="clientloveheadingtwo">
+            Seamless Collaboration that Exceeds Expectations
+          </h2>
+          <p class="thisisloveuspara">
+            “The team went above and beyond to deliver a website that exceeded
+            our expectations. Their attention to detail and commitment to
+            quality made all the difference seen a significant increase in
+            traffic customer engagement!”
+          </p>
+          <div class="innerloveusdiv">
+            <div class="faceicondiv">
+              <img
+                src="./public/images/clientlove6.webp"
+                alt="image"
+                class="faceicon"
+              />
+              <div class="makesameline">
+                <p class="makingloveusheadingbig">Sarah Malkova</p>
+                <p>Founder</p>
+              </div>
+            </div>
+            <div class="leftsidesvgloveclient">
+              <img src="./public/images/clientlove66.svg" alt="image svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const testimonialContainer = document.querySelector(
+        ".makeclientloveusscroall"
+      );
+      // Increased base scroll speed substantially
+      const scrollSpeed = 100; // You can increase this number for even faster scrolling
+
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        return (
+          rect.top <= (windowHeight * 2) / 3 && rect.bottom >= windowHeight / 3
+        );
+      }
+
+      function handleWheel(event) {
+        if (!isInViewport(testimonialContainer)) return;
+
+        event.preventDefault();
+
+        const isAtStart = testimonialContainer.scrollLeft === 0;
+        const isAtEnd =
+          testimonialContainer.scrollLeft + testimonialContainer.clientWidth >=
+          testimonialContainer.scrollWidth - 1;
+
+        if ((isAtStart && event.deltaY < 0) || (isAtEnd && event.deltaY > 0)) {
+          window.scrollBy({
+            top: event.deltaY,
+            behavior: "smooth",
+          });
+          return;
+        }
+
+        // ⭐ MAIN SPEED CONTROL - Increase this multiplier for faster scrolling
+        const scrollAmount = event.deltaY * 3; // Increased from 3 to 8
+
+        testimonialContainer.scrollBy({
+          left: scrollAmount,
+          // ⭐ SPEED CONTROL - Change behavior to 'auto' for instant scrolling
+          behavior: "auto", // Changed from 'smooth' to 'auto' for faster response
+        });
+      }
+
+      testimonialContainer.addEventListener("wheel", handleWheel, {
+        passive: false,
+      });
+
+      // Touch support with increased speed
+      let touchStart = null;
+      let touchX = null;
+
+      testimonialContainer.addEventListener("touchstart", (e) => {
+        touchStart = e.touches[0].clientX;
+        touchX = testimonialContainer.scrollLeft;
+      });
+
+      testimonialContainer.addEventListener("touchmove", (e) => {
+        if (!touchStart || !touchX) return;
+
+        // ⭐ TOUCH SPEED CONTROL - Increased multiplier for faster touch scrolling
+        const touchDelta = (touchStart - e.touches[0].clientX) * 3; // Increased multiplier
+        testimonialContainer.scrollLeft = touchX + touchDelta;
+
+        e.preventDefault();
+      });
+
+      testimonialContainer.addEventListener("touchend", () => {
+        touchStart = null;
+        touchX = null;
+      });
+    });
+  </script>
   <script>
     AOS.init();
   </script>
