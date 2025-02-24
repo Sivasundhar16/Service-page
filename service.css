@@ -88,13 +88,6 @@ body {
   animation-duration: 1.5s; */
 }
 
-/* @keyframes paraheadingup {
-  from {
-    transform: translateY(60px);
-    animation-delay: 2ms;
-  }
-} */
-
 .leftside button {
   padding: 15px;
   width: 200px;
@@ -708,4 +701,9 @@ body {
 
 .finalfooter a {
   color: #161515;
+}
+
+.navbar h5 a {
+  text-decoration: none;
+  color: black;
 }
