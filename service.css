@@ -221,6 +221,9 @@ body {
 
 /* Individual service card */
 .innerdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
@@ -242,7 +245,7 @@ body {
 .imageflex {
   display: flex;
   justify-content: space-between;
-  margin-left: 50px;
+  margin-left: 10px;
   align-items: center;
 }
 
@@ -296,7 +299,7 @@ body {
 /* Heading and paragraph styles */
 .outerserviceprovide h1 {
   font-size: 30px;
-  margin-left: 60px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
