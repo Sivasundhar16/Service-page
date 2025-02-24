@@ -405,6 +405,53 @@
         </div>
       </div>
     </div>
+
+    <!-- moving companies logo -->
+    <div class="container">
+      <div class="logos-wrapper">
+        <!-- Original logos -->
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef66da1ff5fc3d0978a9_brand-1.svg"
+          alt="Logo 1"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef669cc337d91fc6b83c_brand-2.svg"
+          alt="Logo 2"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef66c82d39eb9f84b132_brand-3.svg"
+          alt="Logo 3"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef6630641f945745f2e4_brand-4.svg"
+          alt="Logo 4"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef6700bd334565cd35a9_brand-5.svg"
+          alt="Logo 5"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef67183c4954edcd2791_brand-6.svg"
+          alt="Logo 6"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef6794d4192a7835635e_brand-7.svg"
+          alt="Logo 7"
+          class="logo"
+        />
+        <img
+          src="https://cdn.prod.website-files.com/677114b829f082f1f5dda0f8/6774ef67cb7d826d5ef32ce9_brand-8.svg"
+          alt="Logo 8"
+          class="logo"
+        />
+      </div>
+    </div>
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -476,6 +523,18 @@
       testimonialContainer.addEventListener("touchend", () => {
         touchStart = null;
         touchX = null;
+      });
+    });
+
+    // moving logos ////////////////
+    document.addEventListener("DOMContentLoaded", () => {
+      const logosWrapper = document.querySelector(".logos-wrapper");
+      const logos = Array.from(logosWrapper.children);
+
+      // Clone logos to create a seamless infinite scroll effect
+      logos.forEach((logo) => {
+        const clone = logo.cloneNode(true);
+        logosWrapper.appendChild(clone);
       });
     });
   </script>

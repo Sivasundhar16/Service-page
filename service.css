@@ -482,3 +482,47 @@ body {
   font-size: 22px;
   font-weight: bold;
 }
+
+/* moving company logo  */
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  opacity: 0;
+  animation: movinglogoanimation 1s ease-in forwards;
+}
+
+.logos-wrapper {
+  display: flex;
+  white-space: nowrap;
+  will-change: transform;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes movinglogoanimation {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-right: 32px;
+}
+
+/* Keyframe animation for seamless infinite scrolling */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
