@@ -73,12 +73,6 @@ body {
   animation-duration: 1.5s; */
 }
 
-/* @keyframes headingup {
-  from {
-    transform: translateY(60px);
-  }
-} */
-
 .leftside p {
   margin-left: 30px;
   margin-top: 150px;
@@ -176,17 +170,6 @@ body {
   font-size: 40px;
   overflow: hidden; /* Hide all scrollbars */
 }
-
-/* Heading style - fixed position */
-/* .headingservice {
-  position: sticky;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  background-color: white;
-  padding-right: 20px;
-  opacity: 1;
-} */
 
 .headingservice {
   margin-left: 100px;
@@ -421,17 +404,6 @@ body {
   /* animation: clientloveusheadinganimation 1s ease-in forwards; */
 }
 
-/* @keyframes clientloveusheadinganimation {
-  from {
-    transform: translateY(60px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
 .thisisloveuspara {
   width: 540px;
   height: 96px;
@@ -455,17 +427,6 @@ body {
   opacity: 1;
   /* animation: clientloveusanimation 1s ease-in 500ms forwards; */
 }
-
-/* @keyframes clientloveusanimation {
-  from {
-    transform: translateY(60px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
 
 .makeclientloveusscroall::-webkit-scrollbar {
   display: none; /* Chrome/Safari hides scrollbar */
@@ -578,17 +539,6 @@ body {
   /* animation: lastimagebuttonanimatin 1s forwards 500ms; */
 }
 
-/* @keyframes lastimagebuttonanimatin {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
 .finalcontactusbutton:hover {
   background-color: black;
   color: white;
@@ -600,17 +550,6 @@ body {
   opacity: 1;
   /* animation: lastimageanimation 1s forwards; */
 }
-
-/* @keyframes lastimageanimation {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
 
 .nowrap {
   margin-left: -100px;
