@@ -1036,17 +1036,6 @@ body {
   /* animation: leftfrequentlyanimation 1s forwards; */
 }
 
-/* @keyframes leftfrequentlyanimation {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
 .leftsidefrequently h1 {
   font-size: 40px;
 }
@@ -1068,17 +1057,6 @@ body {
   opacity: 1;
   /* animation: boxoutersanimation 1s forwards 500ms; */
 }
-
-/* @keyframes boxoutersanimation {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
 
 /* Question + Icon */
 .makingflexicons {
@@ -1170,17 +1148,6 @@ body {
   /* animation: lastimagebuttonanimatin 1s forwards 500ms; */
 }
 
-/* @keyframes lastimagebuttonanimatin {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
 .finalcontactusbutton:hover {
   background-color: black;
   color: white;
@@ -1192,17 +1159,6 @@ body {
   opacity: 1;
   /* animation: lastimageanimation 1s forwards; */
 }
-
-/* @keyframes lastimageanimation {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
 
 .nowrap {
   margin-left: -100px;
