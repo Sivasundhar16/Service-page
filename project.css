@@ -172,6 +172,7 @@ body {
 .stylebuttons {
   display: flex;
   margin-left: 40px;
+
   gap: 20px;
   margin-top: 140px;
   margin-bottom: 40px;
@@ -187,6 +188,7 @@ body {
   width: 115px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .stylebuttons button:hover {
