@@ -340,6 +340,7 @@ body {
     transform 0.3s ease-in-out;
   margin-left: 30px;
   opacity: 1;
+  transition: opacity 0.3s ease-in-out;
   /* animation: lastimagebuttonanimatin 1s forwards 500ms; */
 }
 
