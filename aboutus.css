@@ -351,3 +351,30 @@ body {
   color: #5c5151;
   margin-right: 10px;
 }
+
+.awardflex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.makingfontbig {
+  font-size: 60px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.makingflexround {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  border: auto;
+}
+
+.makinggridright {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
