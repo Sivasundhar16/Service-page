@@ -164,3 +164,57 @@ body {
   text-decoration: none;
   color: black;
 }
+
+/* who we are */
+
+.topwhoare {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.topwhoare h1 {
+  font-size: 70px;
+}
+
+.whoweflex {
+  display: flex;
+}
+
+.leftwhoare {
+  width: 50%;
+}
+
+.leftwhoare img {
+  width: 594px;
+  height: 626px;
+  border-radius: 30px;
+}
+
+.rightwhoare {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.makingborderwho {
+  border: 1px solid #00000025;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+}
+
+.makingborderwho h3 {
+  font-size: 45px;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.makingborderwho p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #333;
+}
